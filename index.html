@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Portfolyom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>   
+        <div class="logo">Ad Soyad</div>
+        <ul class="menu">
+            <li><a href="#anasayfa">Ana Sayfa</a></li>
+            <li><a href="#projelerim">Projelerim</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+            <li><button id="darkModeToggle"> </button></li>
+        </ul>
+    </nav>    
+    
+    <main>
+          <section id="anasayfa" class=" sayfa aktif">
+               <h1>Hoş Geldiniz</h1>
+               <p>Ben bir Web Geliştiriciyim</p>
+          </section>
+
+          <section id="projelerim" class="sayfa">
+              <h1>Projelerim</h1>
+              <div id="projeListesi" class="grid-container">Yükleniyor...</div>
+          </section>
+
+          <section id="İletisim" class="sayfa">
+               <h1>İletişim</h1>
+               <form id="iletisimFormu">
+                    <input type="text" id="isim" placeholder="Adınız" required>
+                <button type="submit">Gönder</button>
+               </form>
+                <p id="mesajKutusu"></p>
+
+          </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>    
+
+          
+   
+    
+
