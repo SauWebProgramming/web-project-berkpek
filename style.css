@@ -89,7 +89,17 @@ body.dark-mode .projekarti {
     background-color: darkslategray;
     color: white;
 
+    border: 2px solid white;
+    box-shadow: none;
+
 }
+
+body.dark-mode a{
+    color:white;
+}
+
+
+
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px);}
