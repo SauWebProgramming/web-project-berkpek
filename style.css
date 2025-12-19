@@ -112,9 +112,9 @@ body.dark-mode nav
 }
 
 
-/* --- YENİ EKLENEN TASARIMLAR --- */
 
-/* 1. Profil Resmi Tasarımı */
+
+
 .hero {
     text-align: center;
     margin-top: 50px;
@@ -123,52 +123,88 @@ body.dark-mode nav
 .profil-foto {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Yuvarlak yapar */
-    border: 4px solid #333; /* Çerçeve rengi */
+    border-radius: 50%; 
+    border: 4px solid #333; 
     object-fit: cover;
     margin-bottom: 20px;
     transition: transform 0.3s;
 }
 
 .profil-foto:hover {
-    transform: scale(1.1); /* Üstüne gelince resim büyür */
+    transform: scale(1.1); 
 }
 
-/* 2. Proje Kartlarına Uçma Efekti (Havalanma) */
+
 .proje-karti:hover {
-    transform: translateY(-10px); /* Yukarı doğru kalkar */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Altına gölge gelir */
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
     cursor: pointer;
 }
 
-/* 3. Sosyal Medya İkonları */
+
 .sosyal-medya {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-    font-size: 2rem; /* İkon boyutu */
+    font-size: 2rem;
 }
 
 .ikon {
-    color: #333; /* Gündüz rengi */
+    color: #333; 
     transition: color 0.3s, transform 0.3s;
 }
 
 .ikon:hover {
-    color: #007bff; /* Üstüne gelince mavi olsun */
-    transform: scale(1.2); /* Biraz büyüsün */
+    color: #007bff; 
+    transform: scale(1.2); 
 }
 
-/* --- KARANLIK MOD UYUMLULUĞU --- */
+
 body.dark-mode .profil-foto {
-    border-color: white; /* Gece modunda resim çerçevesi beyaz olsun */
+    border-color: white;
 }
 
 body.dark-mode .ikon {
-    color: white; /* Gece modunda ikonlar beyaz olsun */
+    color: white; 
 }
 
 body.dark-mode .ikon:hover {
-    color: gold; /* Gece modunda üstüne gelince sarı olsun */
+    color: gold;
+}
+
+
+
+.proje-resim {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0;
+}
+
+.proje-icerik {
+    padding: 10px;
+}
+
+
+.proje-buton {
+    display: inline-block;
+    background-color: #007bff; 
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.proje-buton:hover {
+    background-color: #0056b3; 
+}
+
+
+body.dark-mode .proje-buton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }

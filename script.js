@@ -59,10 +59,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 kart.classList.add('proje-karti'); 
 
                 
+                
                 kart.innerHTML = `
-                    <h3>${proje.baslik}</h3>
-                    <p>${proje.aciklama}</p>
-                    <small><strong>Etiketler:</strong> ${proje.etiketler}</small>
+                    <img src="${proje.resim}" alt="${proje.baslik}" class="proje-resim">
+                    <div class="proje-icerik">
+                        <h3>${proje.baslik}</h3>
+                        <p>${proje.aciklama}</p>
+                        <small><strong>Etiketler:</strong> ${proje.etiketler}</small>
+                        <br><br>
+                        <a href="${proje.link}" target="_blank" class="proje-buton">İncele</a>
+                    </div>
                 `;
 
                 
