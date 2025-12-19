@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projeListesi = document.getElementById('projeListesi');
 
    
-    fetch('projeler.json')
+    fetch('veri.json')
         .then(cevap => cevap.json()) 
         .then(projeler => {
             
