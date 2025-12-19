@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benim Portfolyom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>   
-        <div class="logo">Berk Pek</div>
+        <div class="logo">Berk Pek
+
+        </div>
         <ul class="menu">
             <li><a href="#anasayfa">Ana Sayfa</a></li>
             <li><a href="#projelerim">Projelerim</a></li>
@@ -18,25 +21,31 @@
     </nav>    
     
     <main>
-          <section id="anasayfa" class=" sayfa aktif">
-               <h1>Hoş Geldiniz</h1>
-               <p>Ben bir Web Geliştiriciyim</p>
-          </section>
+         <section id="anasayfa" class="sayfa aktif">
+        <div class="hero">
+            <img src="https://cdn-icons-png.flaticon.com/512/4792/4792929.png" alt="Profil Fotoğrafı" class="profil-foto">
+            <h1>Merhaba, Ben Berk! 👋</h1>
+            <p>Web Geliştirme | Tasarim | Teknoloji</p>
+            <p class="ozet">Burada projelerimi ve yeteneklerimi sergiliyorum.</p>
+        </div>
+    </section>
 
           <section id="projelerim" class="sayfa">
               <h1>Projelerim</h1>
               <div id="projeListesi" class="grid-container">Yükleniyor...</div>
           </section>
 
-          <section id="İletisim" class="sayfa">
-               <h1>İletişim</h1>
-               <form id="iletisimFormu">
-                    <input type="text" id="isim" placeholder="Adiniz" required>
-                <button type="submit">Gönder</button>
-               </form>
-                <p id="mesajKutusu"></p>
-
-          </section>
+         <section id="iletisim" class="sayfa">
+        <h2>İletişim</h2>
+        <p>Bana aşagidaki sosyal medya hesaplarimdan ulaşabilirsin:</p>
+        
+        <div class="sosyal-medya">
+            <a href="https://github.com/berkpek" target="_blank" class="ikon"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="ikon"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:email@adresin.com" class="ikon"><i class="fas fa-envelope"></i></a>
+            <a href="https://instagram.com" target="_blank" class="ikon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
     </main>
 
     <script src="script.js"></script>
