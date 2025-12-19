@@ -1,0 +1,17 @@
+[
+  {
+    "baslik": "Kişisel Blog",
+    "aciklama": "HTML ve CSS ile tasarladığım ilk blog sitem.",
+    "etiketler": "HTML, CSS"
+  },
+  {
+    "baslik": "Hesap Makinesi",
+    "aciklama": "JavaScript ile yaptığım hesap makinesi uygulaması.",
+    "etiketler": "JS, Algoritma"
+  },
+  {
+    "baslik": "Hava Durumu",
+    "aciklama": "Anlık hava durumunu gösteren API projesi.",
+    "etiketler": "API, Fetch"
+  }
+]
