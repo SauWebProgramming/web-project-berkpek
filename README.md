@@ -6,14 +6,12 @@ Site; modern web teknolojileri kullanılarak, dinamik veri çekme (JSON) ve kull
 
 ## 🔗 Canlı Demo 
 Projeyi canlı olarak incelemek için aşağıdaki linke tıklayabilirsiniz:
-👉 **[Siteye Gitmek İçin Tıklayın](https://sauwebprogramming.github.io/web-project-berkpek/)** 
-
----
+👉 **[Siteye Gitmek İçin Tıklayın](https://sauwebprogramming.github.io/web-project-berkpek/)** ---
 
 ## 🚀 Proje Özellikleri
 
 * **JSON Veri Yönetimi:** "Projelerim" kısmındaki veriler statik HTML yerine harici bir `veri.json` dosyasından JavaScript `fetch` API kullanılarak dinamik olarak çekilmektedir.
-* **Karanlık Mod :** Kullanıcı tercihine göre gece/gündüz modu arasında geçiş yapılabilir. Tercih anlık olarak uygulanır.
+* **Karanlık Mod (Dark Mode):** Kullanıcı tercihine göre gece/gündüz modu arasında geçiş yapılabilir. Tercih anlık olarak uygulanır.
 * **Responsive Tasarım:** Mobil, tablet ve masaüstü cihazlarla tam uyumlu (Responsive) bir arayüz tasarlanmıştır.
 * **Modern Arayüz:** CSS Flexbox ve Grid yapıları kullanılarak temiz ve anlaşılır bir tasarım hedeflenmiştir.
 
@@ -28,7 +26,7 @@ Projeyi canlı olarak incelemek için aşağıdaki linke tıklayabilirsiniz:
 
 1.  Bu projeyi klonlayın:
     ```bash
-    git clone https://github.com/sauwebprogramming/web-project-berkpek.git
+   git clone https://github.com/sauwebprogramming/web-project-berkpek.git
     ```
 2.  Klasörün içine girin.
 3.  `index.html` dosyasını bir tarayıcıda açın (JSON verilerini görebilmek için Live Server eklentisi önerilir).
