@@ -26,7 +26,7 @@ Projeyi canlı olarak incelemek için aşağıdaki linke tıklayabilirsiniz:
 
 1.  Bu projeyi klonlayın:
     ```bash
-    git clone [https://github.com/sauwebprogramming/web-project-berkpek.git](https://github.com/sauwebprogramming/web-project-berkpek.git)
+   git clone https://github.com/sauwebprogramming/web-project-berkpek.git
     ```
 2.  Klasörün içine girin.
 3.  `index.html` dosyasını bir tarayıcıda açın (JSON verilerini görebilmek için Live Server eklentisi önerilir).
@@ -36,3 +36,4 @@ Projeyi canlı olarak incelemek için aşağıdaki linke tıklayabilirsiniz:
 ## 👤 Hazırlayan
 
 **Berk Pek** Sakarya Üniversitesi - Bilişim Sistemleri ve Teknolojileri
+
