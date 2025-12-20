@@ -18,8 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const sayfaId = link.getAttribute('href').substring(1);
+
+            history.pushState(null, null, `#${sayfaId}`);
+
+
             sayfalar.forEach(sayfa => sayfa.classList.remove('aktif'));
-            document.getElementById(sayfaId).classList.add('aktif');
+            const aktifSayfa = document.getElementById(sayfaId);
+
+            if (aktifSayfa) {
+                aktifSayfa.classList.add('aktif');
+            }
+
+            
         });
     });
 
